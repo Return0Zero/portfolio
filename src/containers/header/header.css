@@ -1,0 +1,44 @@
+
+.header-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-grad {
+    background: var(--circle-gradient);
+}
+
+.returnzero-title {
+    height: var(--title-size);
+    margin-top: 5%;
+
+}
+
+.linear-grad {
+}
+
+.bg-rays {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -0.5%;
+}
+
+.web-developer {
+    position: absolute;
+    color: white;
+    font-family: var(--accent-font);
+    font-size: 60px;
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 270px;
+}
+
+
+

@@ -1,0 +1,21 @@
+
+.skills-section {
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-title {
+    height: var(--title-size);
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.skills--info-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 3;
+
+}

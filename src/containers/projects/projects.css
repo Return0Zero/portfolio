@@ -1,0 +1,23 @@
+
+.projects--section {
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.project--title {
+    
+    height: var(--title-size);
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.project--container {
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

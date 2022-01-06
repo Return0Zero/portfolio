@@ -1,0 +1,85 @@
+
+.navigation-section {
+    position: fixed;
+    display: flex;
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 20px;
+    z-index: 9;
+    justify-content: space-between;
+}
+
+.navigation-elements {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+
+.navigation--logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navigation--icon {
+    width: 70px;
+    cursor: pointer;
+}
+
+.navigation--separation-bar {
+    height: 124px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #831187;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CTA-button {
+    position: relative;
+    cursor: pointer;
+    margin-top: 700px;
+    background-image: var(--button-gradient);
+    background-size: 300%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    width: 160px;
+    height: 42px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: var(--button-font);
+}
+
+.CTA-button:hover {
+    animation: play 1.5s infinite alternate;
+}
+
+.CTA-button p:hover {
+    background: white;
+    color: black;
+}
+
+
+.CTA-button p {
+    font-size: 20px;
+    display: block;
+    margin: 6px;
+    padding: 3px;
+    background: black;
+    border-radius: 50px;
+}
+
+@keyframes play {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
