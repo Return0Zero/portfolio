@@ -1,0 +1,145 @@
+
+.contact--section {
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--title {
+    height: var(--title-size);
+    margin-bottom: 5%;
+    position: relative;
+    z-index: 7;
+}
+
+.contact--info-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.contact--form {
+    width: 60%;
+    margin-left: 5%;
+}
+
+.contact--info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 5%;
+}
+
+.contact--info h3 {
+    
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+
+.contact--contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.contact--social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 30%;
+}
+
+.contact--contact-icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact--social-icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-first-container, .contact-second-container, .contact-third-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.contact-first-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.contact-first-container img.phone-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.contact-second-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.contact-second-container img.img-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.contact-third-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.contact-third-container img.img-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* social container */
+
+.social-first-container, .social-second-container, .social-third-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.social-first-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.social-first-container img.img-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.social-second-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.social-second-container img.img-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.social-third-container img {
+    position: absolute;
+    width: 130px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.social-third-container img.img-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+

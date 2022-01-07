@@ -10,6 +10,8 @@
 .wtmp-title {
     height: var(--double-title-size);
     margin-top: 5%;
+    position: relative;
+    z-index: 7;
 }
 
 .about--texts {

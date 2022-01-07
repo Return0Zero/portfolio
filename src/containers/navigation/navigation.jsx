@@ -10,13 +10,10 @@ const Navigation = () => {
             <div className='navigation-elements'>
                 <a href='#'><img src={LogoDbWf} alt='Logo' className='navigation--logo'/></a>
                 <div className='navigation--separation-bar'></div>
-                <a href='#'><img src={AboutMeIcon} alt='About me icon' className='navigation--icon'/></a>
+                <a href='#aboutID'><img src={AboutMeIcon} alt='About me icon' className='navigation--icon'/></a>
                 <div className='navigation--separation-bar'></div>
-                <a href='#'><img src={ProjectsIcon} alt='Projects icon' className='navigation--icon'/></a>
+                <a href='#projectID'><img src={ProjectsIcon} alt='Projects icon' className='navigation--icon'/></a>
             </div>
-            <a className='CTA-button' href='#'>
-                <p>Contact Me</p>
-            </a>
         </div>
     )
 }

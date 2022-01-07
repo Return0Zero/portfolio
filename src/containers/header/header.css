@@ -5,6 +5,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .circle-grad {
@@ -14,7 +15,8 @@
 .returnzero-title {
     height: var(--title-size);
     margin-top: 5%;
-
+    position: relative;
+    z-index: 7;
 }
 
 .linear-grad {

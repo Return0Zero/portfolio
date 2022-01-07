@@ -10,6 +10,8 @@
     height: var(--title-size);
     margin-top: 5%;
     margin-bottom: 10%;
+    position: relative;
+    z-index: 7;
 }
 
 .skills--info-container {

@@ -2,22 +2,24 @@
 .projects--section {
     margin: 5% 5% 0% 5%;
     text-align: center;
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project--title {
     
     height: var(--title-size);
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     width: 100%;
+    position: relative;
+    z-index: 7;
 }
 
 .project--container {
-    
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }

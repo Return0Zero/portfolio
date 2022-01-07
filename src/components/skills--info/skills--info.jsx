@@ -9,9 +9,9 @@ const SkillsInfo = ({InfoImage, InfoTitle, InfoDescription, InfoTools, BgImage})
             <img src={LeftBrain} alt='left brain image' className='left-brain' />
             <div className='skills--info-component'>
             <img src={SkillsBg} alt='icon' className='skills--icon-component' />
-            <h3 className='skills--title-component'>Frontend <br /> Development</h3>
-            <p className='skills--p-component'>Design is the process of imagining, planning and optimizing the interactions that the user will have in the web.</p>
-            <p className='skills--p-component'>Design tools I have used in my projects:</p>
+            <h3 className='skills--title-component'>Frontend<br />Development</h3>
+            <p className='skills--p-component'>Coding is the bridge that allows the computer to understand the user and facilitates the way to build what we dream.</p>
+            <p className='skills--p-component'>Dev Languages I have used in my projects:</p>
             <div className='skills--p-columns'>
                 <div className='skills--p-first-column'>
                     <p>HTML</p>

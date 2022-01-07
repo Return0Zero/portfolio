@@ -3,6 +3,7 @@ import './header.css';
 import ReturnZero from '../../images/titles/return-zero.svg';
 import Mountains from '../../images/hero-section/mountains.svg';
 import Rays from '../../images/hero-section/rays.svg';
+import Typewriter from 'typewriter-effect';
 
 
 const Header = () => {
@@ -16,7 +17,15 @@ const Header = () => {
             </div>
             <div className='linear-grad'>
                 <img src={Rays} alt="background rays" className="bg-rays"/>
-                <p className='web-developer'>Web Developer</p>
+                <div className='web-developer'>
+                    <Typewriter 
+                        options={{
+                            strings: ['Web Developer', 'Web Designer'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </div>
             </div>
         </div>
     )

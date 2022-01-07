@@ -1,0 +1,12 @@
+
+.footer-section {
+    z-index: 7;
+    width: 100%;
+    background-color: #0C0129;
+    margin-top: 5%;
+    padding: 5px 5px 5px 5%;
+}
+
+.footer-section p {
+    color: white;
+}

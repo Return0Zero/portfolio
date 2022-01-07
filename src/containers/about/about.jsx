@@ -9,7 +9,7 @@ import Asset1 from '../../images/background-designs/Asset1.svg';
 
 const About = () => {
     return (
-        <div className='about--section'>
+        <div className='about--section' id='aboutID'>
             <img src={Wtmp} alt='welcome to my portfolio' className='wtmp-title'/>
             <div className='triangles-container'>
                 <img src={Triangles} alt='triangle' className='triangles first-triangles' />

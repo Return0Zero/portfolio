@@ -5,7 +5,7 @@ import ProjComponent from '../../components/proj--component/proj--component';
 
 const Projects = () => {
     return (
-        <div className='projects--section'>
+        <div className='projects--section' id='projectID'>
             <img src={ProjectsTitle} alt='projects title' className='project--title'/>
             <div className='project--container'>
                 <ProjComponent />

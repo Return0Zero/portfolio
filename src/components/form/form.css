@@ -1,0 +1,26 @@
+.form--container {
+    width: 80%;
+}
+
+.form--container div {
+    margin-bottom: 35px;
+}
+
+.input {
+    border-radius: 50px;
+    font-size: 1.3em;
+    border: 2.5px solid rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 1% 5% 1% 5%;
+    background: var(--background-input);
+}
+
+.input-button {
+    border-radius: 50px;
+    border: 2.5px solid rgba(255, 255, 255, 0.7);
+    width: 20%;
+    padding: 1% 0% 1% 0%;
+    background: var(--background-input);
+    font-size: 1.2em;
+    cursor: pointer;
+}
