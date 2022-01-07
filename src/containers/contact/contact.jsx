@@ -18,9 +18,15 @@ import Facebook from '../../images/icons/contact-me-icons/facebook2.svg'
 import Instagram2 from '../../images/icons/contact-me-icons/instagram.svg'
 import Instagram from '../../images/icons/contact-me-icons/instagram2.svg'
 
+//background images
+
+import Mountain1 from '../../images/hero-section/mountain1.svg'
+import Mountain2 from '../../images/hero-section/mountain2.svg'
+
 const Contact = () => {
     return (
         <div className='contact--section' id='contactID'>
+            
             <img src={ContactTitle} alt='skills title' className='contact--title'/>
             <div className='contact--info-container'>
                 <div className='contact--form'>
