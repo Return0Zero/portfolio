@@ -20,9 +20,17 @@
     cursor: pointer;
 }
 
+.navigation--logo:active {
+    transform: scale(0.9);
+}
+
 .navigation--icon {
     width: 70px;
     cursor: pointer;
+}
+
+.navigation--icon:active {
+    transform: scale(0.9);
 }
 
 .navigation--separation-bar {
