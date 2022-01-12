@@ -1,22 +1,15 @@
-
-.CTA-section {
-    position: fixed;
-    display: flex;
-    right: 3%;
-    top: 90%;
-    z-index: 8;
-    justify-content: space-between;
-}
-
 .CTA-section:active {
     transform: scale(0.9);
 }
 
 .CTA-button {
-    position: relative;
+    position: fixed;
+    right: 3%;
+    top: 90%;
+    z-index: 8;
     cursor: pointer;
     background-image: var(--button-gradient);
-    background-size: 300%;
+    background-size: 200%;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -36,14 +29,15 @@
 .CTA-button p:hover {
     background: white;
     color: black;
+    animation: play 2s infinite alternate;
 }
 
 
 .CTA-button p {
     font-size: 20px;
     display: block;
-    margin: 6px;
-    padding: 3px;
+    margin: 4px;
+    padding: 5px;
     background: black;
     border-radius: 50px;
 }

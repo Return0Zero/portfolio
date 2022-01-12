@@ -1,7 +1,6 @@
 
 .contact--section {
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-bottom: 3%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,6 +25,7 @@
     width: 60%;
     margin-top: 1%;
     margin-left: 5%;
+    padding-left: 5%;
 }
 
 .contact--info {
@@ -33,6 +33,7 @@
     flex-direction: column;
     color: white;
     margin-right: 5%;
+    padding-right: 5%;
 }
 
 .contact--info h3 {
@@ -74,7 +75,7 @@
 .contact-first-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .contact-first-container img.phone-back:hover {
@@ -85,7 +86,7 @@
 .contact-second-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .contact-second-container img.img-back:hover {
@@ -96,7 +97,7 @@
 .contact-third-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .contact-third-container img.img-back:hover {
@@ -115,7 +116,7 @@
 .social-first-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .social-first-container img.img-back:hover {
@@ -126,7 +127,7 @@
 .social-second-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .social-second-container img.img-back:hover {
@@ -137,7 +138,7 @@
 .social-third-container img {
     position: absolute;
     width: 130px;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .social-third-container img.img-back:hover {
@@ -145,7 +146,54 @@
     cursor: pointer;
 }
 
+.contact-first-container:active {
+    transform: scale(0.9);
+}
 
+.contact-second-container:active {
+    transform: scale(0.9);
+}
+
+.contact-third-container:active {
+    transform: scale(0.9);
+}
+
+.social-first-container:active {
+    transform: scale(0.9);
+}
+
+.social-second-container:active {
+    transform: scale(0.9);
+}
+
+.social-third-container:active {
+    transform: scale(0.9);
+}
+
+.mountain-container {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+
+.mountain1 {
+    position: absolute;
+    height: 90vh;
+    z-index: 0;
+    left: 0;
+
+}
+
+
+.mountain2 {
+    position: absolute;
+    height: 90vh;
+    z-index: 0;
+    right: 0;
+}
 
 
 

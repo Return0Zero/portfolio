@@ -26,6 +26,10 @@ import Mountain2 from '../../images/hero-section/mountain2.svg'
 const Contact = () => {
     return (
         <div className='contact--section' id='contactID'>
+            <div className='mountain-container'>
+                <img src={Mountain1} alt='Mountain1' className='mountain1' />
+                <img src={Mountain2} alt='Mountain2' className='mountain2' />
+            </div>
             
             <img src={ContactTitle} alt='skills title' className='contact--title'/>
             <div className='contact--info-container'>

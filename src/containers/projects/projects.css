@@ -29,7 +29,7 @@
 .asset2-container {
     position: absolute;
     z-index: 0;
-    top: 5%;
+    top: 20%;
     height: 800px;
     width: 450px;
     overflow: hidden;

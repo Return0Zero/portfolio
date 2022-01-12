@@ -3,42 +3,9 @@
     z-index: 7;
     width: 100%;
     background-color: #0C0129;
-    margin-top: 5%;
     padding: 5px 5px 5px 5%;
 }
 
 .footer-section p {
     color: white;
-}
-
-.mountain1-container {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 0;
-    height: 800px;
-    width: 800px;
-    
-}
-
-.mountain1 {
-    position: relative;
-    transform: rotate(90deg);
-    left: 0;
-}
-
-.mountain2-container {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    right: 0;
-    height: 800px;
-    width: 800px;
-    
-}
-
-.mountain2 {
-    position: absolute;
-    transform: rotate(90deg);
-    right: 0;
 }

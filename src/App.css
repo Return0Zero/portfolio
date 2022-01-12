@@ -8,5 +8,24 @@
 .App {
     background: var(--background-gradient);
     font-family: var(--main-font);
+    
 }
 
+::-webkit-scrollbar {
+    width: .6em;
+    background:linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(198, 198, 196, 1) 30%, rgba(198, 198, 196, 1) 70%, rgba(255, 255, 255, 1) 100%);
+
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background:linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(198, 198, 196, 1) 30%, rgba(198, 198, 196, 1) 70%, rgba(255, 255, 255, 1) 100%);
+
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 3, 147, 1) 27%, rgba(35, 2, 76, 1) 100%);
+    border-radius: 100px;
+    border: 0.1em solid #C6C6C4;
+}
