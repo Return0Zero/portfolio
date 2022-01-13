@@ -36,7 +36,7 @@ const Contact = () => {
                 
                 <div className='contact--info'>
                         <div className='contact--contact'>
-                            <h3 className='contact--h3'>Contact Me</h3>
+                            <h3 className='contact--h3'>Reach Me Out:</h3>
                             <div className='contact--contact-icon-container'>
                                 <a href='tel:301-524-6088' className='contact-first-container'>
                                     <img src={Phone} alt="phone" className='phone phone-front'/>
@@ -53,7 +53,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='contact--social'>
-                            <h3 className='contact--h3'>ReturnZero's Social Media</h3>
+                            <h3 className='contact--h3'>Follow Me:</h3>
                             <div className='contact--social-icon-container'>
                                 <a href='https://www.youtube.com/channel/UCOq84jYjG1kuE8lHHYuUfvA' target="_blank" className='social-first-container'>
                                     <img src={Youtube} alt="youtube" className='youtube img-front'/>
