@@ -114,4 +114,7 @@
 @media (max-width: 500px) {
 
     
+    .navigation--logo {
+        width: 55px;
+    }
 }

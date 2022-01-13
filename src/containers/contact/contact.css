@@ -236,31 +236,31 @@
 
     .contact-first-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
 
     .contact-second-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
 
     .contact-third-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
     
     .social-first-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
     .social-second-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
 
     .social-third-container img {
         width: 100px;
-        transition: opacity 0.0001s ease-in-out;
+        transition: opacity 0.001s ease-in-out;
     }
 
     .contact--info h3 {
