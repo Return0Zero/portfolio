@@ -85,6 +85,18 @@
 
 @media (max-width: 800px) {
 
+    .navigation--text {
+        display: none;
+    }
+    
+    .navigation---icon-text {
+        display: none;
+    }
+    
+    .navigation--separation-bar {
+        height: 100px;
+        width: 0px;
+    }
     
 
 
