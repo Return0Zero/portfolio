@@ -29,8 +29,8 @@ const ProjSilas = () => {
                 </div>
             </div>
             <div className='proj--buttons-container'>
-            <a href='https://github.com/Return0Zero/silaslandscaping.github.io' target="_blank"><img src={CodingButton} alt='Coding Button' className='proj--buttons'/></a>
-            <a href='https://silaslandscaping.netlify.app/' target="_blank"><img src={WebButton} alt='Web Button' className='proj--buttons'/></a>
+            <a href='https://github.com/Return0Zero/silaslandscaping.github.io' target="_blank" rel="noreferrer"><img src={CodingButton} alt='Coding Button' className='proj--buttons'/></a>
+            <a href='https://silaslandscaping.netlify.app/' target="_blank" rel="noreferrer"><img src={WebButton} alt='Web Button' className='proj--buttons'/></a>
                
             </div>
         </div>
