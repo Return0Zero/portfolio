@@ -94,8 +94,17 @@
     }
     
     .navigation--separation-bar {
-        height: 100px;
+        height: 80px;
         width: 0px;
+    }
+
+    .navigation--logo {
+        width: 60px;
+    }
+
+
+    .navigation--icon {
+        width: 45px;
     }
     
 

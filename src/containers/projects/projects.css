@@ -46,6 +46,9 @@
 
 @media (max-width: 1300px) {
 
+    .project--title {
+        width: 45%;
+    }
     .asset2-container {
         height: 600px;
         width: 350px;

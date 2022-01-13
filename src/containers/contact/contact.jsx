@@ -38,35 +38,35 @@ const Contact = () => {
                         <div className='contact--contact'>
                             <h3 className='contact--h3'>Contact Me</h3>
                             <div className='contact--contact-icon-container'>
-                                <div className='contact-first-container'>
+                                <a href='tel:301-524-6088' className='contact-first-container'>
                                     <img src={Phone} alt="phone" className='phone phone-front'/>
                                     <img src={Phone2} alt="phone2" className='phone2 phone-back'/>
-                                </div>
-                                <div className='contact-second-container'>
+                                </a>
+                                <a href='https://www.linkedin.com/in/jorge-cruz-a22484216/' target="_blank" className='contact-second-container'>
                                     <img src={Linkedin} alt="linkedin" className='linkedin img-front'/>
                                     <img src={Linkedin2} alt="linkedin2" className='linkedin2 img-back'/>
-                                </div>
-                                <div className='contact-third-container'>
+                                </a>
+                                <a href='https://github.com/Return0Zero' target="_blank" className='contact-third-container'>
                                     <img src={Github} alt="github" className='github img-front'/>
                                     <img src={Github2} alt="github2" className='github2 img-back'/>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div className='contact--social'>
                             <h3 className='contact--h3'>ReturnZero's Social Media</h3>
                             <div className='contact--social-icon-container'>
-                                <div className='social-first-container'>
+                                <a href='https://www.youtube.com/channel/UCOq84jYjG1kuE8lHHYuUfvA' target="_blank" className='social-first-container'>
                                     <img src={Youtube} alt="youtube" className='youtube img-front'/>
                                     <img src={Youtube2} alt="youtube2" className='youtube2 img-back'/>
-                                </div>
-                                <div className='social-second-container'>
+                                </a>
+                                <a href='https://www.facebook.com/ReturnZero-105368945341957' target="_blank" className='social-second-container'>
                                     <img src={Facebook} alt="facebook" className='facebook img-front'/>
                                     <img src={Facebook2} alt="facebook2" className='facebook2 img-back'/>
-                                </div>
-                                <div className='social-third-container'>
+                                </a>
+                                <a href='https://www.instagram.com/returnzero_dev/' target="_blank" className='social-third-container'>
                                     <img src={Instagram} alt="instagram" className='instagram img-front'/>
                                     <img src={Instagram2} alt="instagram2" className='instagram2 img-back'/>
-                                </div>
+                                </a>
                             </div>
                         </div>
                 </div>

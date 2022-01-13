@@ -23,3 +23,12 @@
     z-index: 3;
 
 }
+
+
+@media (max-width: 800px) {
+
+    .skills-title {
+        width: 35%;
+    }
+
+}
