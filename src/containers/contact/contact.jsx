@@ -33,12 +33,10 @@ const Contact = () => {
             
             <img src={ContactTitle} alt='skills title' className='contact--title'/>
             <div className='contact--info-container'>
-                <div className='contact--form'>
-                    <Form />
-                </div>
+                
                 <div className='contact--info'>
                         <div className='contact--contact'>
-                            <h3>Contact Me</h3>
+                            <h3 className='contact--h3'>Contact Me</h3>
                             <div className='contact--contact-icon-container'>
                                 <div className='contact-first-container'>
                                     <img src={Phone} alt="phone" className='phone phone-front'/>
@@ -55,7 +53,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='contact--social'>
-                            <h3>ReturnZero's Social Media</h3>
+                            <h3 className='contact--h3'>ReturnZero's Social Media</h3>
                             <div className='contact--social-icon-container'>
                                 <div className='social-first-container'>
                                     <img src={Youtube} alt="youtube" className='youtube img-front'/>
@@ -71,6 +69,9 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
+                </div>
+                <div className='contact--form'>
+                    <Form />
                 </div>
             </div>
         </div>

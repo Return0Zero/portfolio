@@ -29,3 +29,10 @@
     border-radius: 100px;
     border: 0.1em solid #C6C6C4;
 }
+
+.max-width {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

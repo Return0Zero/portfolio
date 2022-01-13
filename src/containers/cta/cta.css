@@ -50,3 +50,40 @@
         background-position: right;
     }
 }
+
+@media (max-width: 1300px) {
+        
+    .CTA-button {
+        right: 3%;
+        top: 95%;
+        background-size: 200%;
+        width: 120px;
+        height: 35px;
+    }
+
+    .CTA-button p {
+        font-size: 15px;
+        margin: 4px;
+        padding: 4.5px;
+    }
+
+}
+
+@media (max-width: 800px) {
+        
+    .CTA-button {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 93.5%;
+        background-size: 200%;
+        width: 120px;
+        height: 35px;
+    }
+
+    .CTA-button p {
+        font-size: 15px;
+        margin: 4px;
+        padding: 4.5px;
+    }
+
+}

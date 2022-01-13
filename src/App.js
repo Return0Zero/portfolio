@@ -8,14 +8,16 @@ export const App = () => {
     return (
         
         <div className='App'>
-            <Navigation />
-            <CTA />
-            <Header />
-            <About />
-            <Skills />
-            <Projects />
-            <Contact /> 
-            <Footer />
+            <div className='max-width'>
+                <Navigation />
+                <CTA />
+                <Header />
+                <About />
+                <Skills />
+                <Projects />
+                <Contact /> 
+                <Footer />
+            </div>
         </div>
     )
 

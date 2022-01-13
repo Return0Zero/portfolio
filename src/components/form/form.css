@@ -1,5 +1,14 @@
 .form--container {
     width: 80%;
+    
+    text-align: center;
+    background: var(--background-component);
+    padding: 6% 6% 1% 6%;
+    border-radius: 35px;
+    backdrop-filter: blur(3px);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 .form--container div {
@@ -15,7 +24,7 @@
     width: 100%;
     padding: 1% 5% 1% 5%;
     background: var(--background-input);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .input-button {
@@ -23,14 +32,24 @@
     backdrop-filter: blur(3px);
     border-top: 2px solid rgba(255, 255, 255, 0.7);
     border-left: 2px solid rgba(255, 255, 255, 0.7);
-    width: 20%;
-    padding: 1% 0% 1% 0%;
+    width: 30%;
     background: var(--background-input);
-    font-size: 1.2em;
+    font-size: 1.5em;
     cursor: pointer;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .input-button:active {
     transform: scale(0.9);
+}
+
+@media (max-width: 1100px) {
+    .form--container {
+        width: 100%;
+    }
+    .input-button {
+        font-size: 1.2em;
+    }
+    
+
 }

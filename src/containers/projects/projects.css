@@ -9,11 +9,11 @@
 }
 
 .project--title {
-    
-    height: var(--title-size);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
     margin-bottom: 7%;
-    width: 100%;
     position: relative;
     z-index: 7;
 }
@@ -40,4 +40,48 @@
     left: -400px;
     height: 100%;
     animation: rightRotation 30s infinite linear;
+}
+
+
+
+@media (max-width: 1300px) {
+
+    .asset2-container {
+        height: 600px;
+        width: 350px;
+    }
+    .asset2 {
+        left: -300px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .asset2-container {
+        height: 400px;
+        width: 250px;
+    }
+    
+.asset2 {
+    position: absolute;
+    left: -250px;
+    height: 100%;
+    animation: rightRotation 30s infinite linear;
+}
+
+}
+
+@media (max-width: 500px) {
+
+    .asset2-container {
+        height: 300px;
+        width: 175px;
+    }
+    
+    .asset2 {
+        margin-left: 50px;
+    }
+
 }
