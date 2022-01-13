@@ -3,7 +3,7 @@ import './form.css';
 
 const Form = () => {
     return (
-        <form className='form--container'>
+        <form className='form--container' name="contact" method="POST"  data-netlify="true">
             <div>
                 <label hidden>Name</label>
                 <input className='input' type='text' placeholder='Name' required/>
