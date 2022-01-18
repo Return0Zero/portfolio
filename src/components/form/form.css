@@ -11,10 +11,6 @@
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 
-.form--container div {
-    margin-bottom: 35px;
-}
-
 .input {
     border-radius: 50px;
     font-size: 1.3em;
@@ -26,6 +22,7 @@
     background: var(--background-input);
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
     font-family: var(--main-font);
+    margin-bottom: 35px;
 }
 
 
@@ -40,6 +37,7 @@
     font-size: 1.5em;
     cursor: pointer;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    margin-bottom: 35px;
 }
 
 .input-button:active {
