@@ -36,8 +36,8 @@
     
 }
 
-.silas-logo {
-    transform: scale(0.68);
+.embassy-logo {
+    transform: scale(0.75);
 }
 
 .proj--buttons-container {
@@ -67,16 +67,17 @@
     border-radius: 20px;
 }
 
-.proj--two-images {
+.proj--two-images-embassy {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
     height: 200px;
 }
 
-.proj--image {
-    width: 150px;
+.proj---embassy-image {
+    width: 180px;
 }
 
 @media (max-width: 1300px) {
@@ -87,9 +88,10 @@
         overflow: auto;
     }
 
-    .proj--two-images {
+    .proj--two-images-embassy {
         margin-top: 3%;
         margin-bottom: 3%;
+        flex-direction: column;
     }
 
     .proj--buttons {
@@ -99,8 +101,8 @@
         cursor: pointer;
     }
 
-    .proj--image {
-        width: 120px;
+    .proj---embassy-image {
+        width: 160px;
     }
 
 }@media (max-width: 1100px) {
@@ -118,8 +120,8 @@
         cursor: pointer;
     }
 
-    .proj--image {
-        width: 100px;
+    .proj---embassy-image {
+        width: 130px;
     }
 
     .proj--logo-container {
@@ -128,8 +130,8 @@
         height: 50px;
     }
     
-    .silas-logo {
-        transform: scale(0.5);
+    .embassy-logo {
+        transform: scale(0.7);
     }
 
 }
@@ -155,8 +157,8 @@
         cursor: pointer;
     }
 
-    .proj--image {
-        width: 150px;
+    .proj---embassy-image {
+        width: 200px;
     }
 
     .proj--logo-container {
@@ -165,12 +167,13 @@
         height: 50px;
     }
     
-    .proj--two-images {
+    .proj--two-images-embassy {
         justify-content: space-evenly;
+        flex-direction: row;
     }
     
-    .silas-logo {
-        transform: scale(0.8);
+    .embassy-logo {
+        transform: scale(1);
     }
 
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import ProjectsTitle from '../../images/titles/projects.svg';
 import ProjSilas from '../../components/proj--component/proj--silas';
+import ProjEmbassy from '../../components/proj--component/proj--embassy';
 import Asset2 from '../../images/background-designs/Asset2.svg';
 
 const Projects = () => {
@@ -13,10 +14,7 @@ const Projects = () => {
             <img src={ProjectsTitle} alt='projects title' className='project--title'/>
             <div className='project--container'>
                 <ProjSilas />
-                <ProjSilas />
-                <ProjSilas />
-                <ProjSilas />
-                <ProjSilas />
+                <ProjEmbassy />
             </div>
         </div>
     )
