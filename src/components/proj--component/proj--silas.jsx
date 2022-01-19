@@ -5,7 +5,7 @@ import PlusButton from '../../images/icons/plus-button.svg';
 import WebButton from '../../images/icons/web-button.png';
 import CodingButton from '../../images/icons/coding-button.svg';
 
-import HomeBefore from '../../images/projects/silas/home-before.jpg'
+import HomeBefore from '../../images/projects/silas/home-before.png'
 import HomeAfter from '../../images/projects/silas/home-after.png'
 
 
