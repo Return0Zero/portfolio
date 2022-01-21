@@ -161,11 +161,6 @@
         width: 100px;
     }
 
-    .proj--logo-container {
-        width: 45%;
-        top: -25px;
-        height: 50px;
-    }
     
     .proj--two-images-embassy {
         justify-content: space-evenly;
@@ -187,12 +182,6 @@
             width: 150px;
         }
 
-        .proj--logo-container {
-            width: 40%;
-            top: -20px;
-            height: 40px;
-        }
-    
 
 }
 @media (max-width: 600px) {
