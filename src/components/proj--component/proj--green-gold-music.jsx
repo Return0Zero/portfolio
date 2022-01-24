@@ -12,7 +12,7 @@ const ProjMusic = () => {
     return (
         <div className='proj--component'>
             <div className='proj--logo-container'>
-                <img src={MusicLogo} alt='Embassy of Honduras Logo' className='embassy-logo' />
+                <img src={MusicLogo} alt='Embassy of Honduras Logo' className='game-logo' />
                 <h1 className='proj--game-title'>Green Gold Music</h1>
             </div>
             <div className='proj--content'>

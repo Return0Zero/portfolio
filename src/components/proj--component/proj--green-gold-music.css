@@ -36,10 +36,6 @@
     
 }
 
-.embassy-logo {
-    transform: scale(0.75);
-}
-
 .proj--game-title {
     color: black;
     font-size: 1.5vw;
@@ -132,14 +128,10 @@
     }
 
     .proj--logo-container {
-        width: 50%;
         top: -25px;
         height: 50px;
     }
     
-    .embassy-logo {
-        transform: scale(0.7);
-    }
 
 }
 
@@ -174,9 +166,6 @@
         flex-direction: row;
     }
     
-    .embassy-logo {
-        transform: scale(1);
-    }
 
 }
 
@@ -207,9 +196,6 @@
             width: 100px;
         }
         
-        .silas-logo {
-            transform: scale(0.65);
-        }
 
 }
 
@@ -227,8 +213,5 @@
         width: 100px;
     }
     
-    .silas-logo {
-        transform: scale(0.55);
-    }
 
 }

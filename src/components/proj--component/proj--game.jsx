@@ -14,7 +14,7 @@ const ProjGame = () => {
     return (
         <div className='proj--component'>
             <div className='proj--logo-container'>
-                <img src={GameLogo} alt='Embassy of Honduras Logo' className='embassy-logo' />
+                <img src={GameLogo} alt='Embassy of Honduras Logo' className='game-logo' />
                 <h1 className='proj--game-title'>Kaboom.js Game</h1>
             </div>
             <div className='proj--content'>

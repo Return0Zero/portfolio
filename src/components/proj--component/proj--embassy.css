@@ -21,7 +21,7 @@
     width: 60%;
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     top: -30px;
     left: 0; 
     right: 0; 
@@ -37,7 +37,6 @@
 }
 
 .embassy-logo {
-    transform: scale(0.75);
 }
 
 .proj--buttons-container {
@@ -125,13 +124,12 @@
     }
 
     .proj--logo-container {
-        width: 50%;
+        width: 70%;
         top: -25px;
         height: 50px;
     }
     
     .embassy-logo {
-        transform: scale(0.7);
     }
 
 }
@@ -167,7 +165,6 @@
     }
     
     .embassy-logo {
-        transform: scale(1);
     }
 
 }
@@ -198,8 +195,7 @@
             width: 100px;
         }
         
-        .silas-logo {
-            transform: scale(0.65);
+        .embassy-logo {
         }
 
 }
@@ -217,9 +213,10 @@
     .proj--image {
         width: 100px;
     }
-    
-    .silas-logo {
-        transform: scale(0.55);
+
+    .embassy-logo {
+        transform: scale(0.8);
     }
+    
 
 }
